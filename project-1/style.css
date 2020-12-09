@@ -1,3 +1,59 @@
 /* Styl użytkownika */
+body {
+  max-width: 1366px;
+  margin: 0 auto;
+}
+nav {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
+.logo-main {
+  height: 100%;
+  width: 50%;
+}
 
+.nav-bar ul {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-bar li {
+  margin: 5px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.picture{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+}
+
+.posts-selector {
+  display: flex;
+  justify-content: center;
+}
+.article {
+  width: 200px;
+  height: 200px;
+}
+.article-grid {
+  display: flex;
+  justify-content: center;
+  max-width: 700px;
+  flex-wrap: wrap;
+}
