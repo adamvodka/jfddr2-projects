@@ -13,7 +13,8 @@ a {
 
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin: 0 100px;
   align-items: center;
   background-color: hsl(0, 0%, 100%);
   border-bottom: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
@@ -29,8 +30,7 @@ nav {
 }
 
 .main-logo {
-  height: 40%;
-  width: 100%;
+  width: 20%;
 }
 
 .nav-bar ul {
