@@ -1,8 +1,10 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
 /* Styl użytkownika */
 body {
-  max-width: 1115px;
+  width: 1115px;
   margin: 0 auto;
-  background-color: hsl(0, 0%, 98%);
+  background-color: #fafafa;
   font-family: "Roboto", sans-serif;
 }
 
@@ -12,11 +14,13 @@ a {
 }
 
 nav {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   justify-content: space-around;
-  margin: 0 100px;
   align-items: center;
-  background-color: hsl(0, 0%, 100%);
+  background-color: #ffffff;
   border-bottom: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
   margin-bottom: 25px;
 }
@@ -29,12 +33,29 @@ nav {
   margin: 0;
 }
 
+.search-icon {
+  font-family: "Roboto", FontAwesome;
+  font-weight: 400;
+  font-size: 16px;
+  border-color: #cccccc;
+  border-style: solid;
+  text-align: center;
+  border-radius: 4px;
+  padding: 5px 15px;
+  border-width: 1px;
+  background-color: #fafafa;
+  color: #a3a3a3;
+}
+.search-icon:focus {
+  outline: none;
+}
+
 .main-logo {
-  width: 20%;
+  width: 12%;
 }
 
 .nav-bar ul {
-  margin: 0 0 0 30px;
+  margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
@@ -45,13 +66,20 @@ nav {
   margin: 5px;
 }
 
-.main-data {
+main {
   display: flex;
-  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-data {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
 }
 
 .main-data__user-avatar {
-  margin: 2% 5% 2% 16%;
+  margin: 2% 5% 2% 0;
 }
 
 .main-data__user-avatar img {
@@ -120,6 +148,7 @@ nav {
 .gallery {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
