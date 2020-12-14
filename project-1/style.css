@@ -33,6 +33,23 @@ nav {
   width: 20%;
 }
 
+.search-icon {
+  font-family: "Roboto", FontAwesome;
+  font-weight: 400;
+  font-size: 16px;
+  border-color: #cccccc;
+  border-style: solid;
+  text-align: center;
+  border-radius: 4px;
+  padding: 5px 15px;
+  border-width: 1px;
+  background-color: #fafafa;
+  color: #a3a3a3;
+}
+.search-icon:focus {
+  outline: none;
+}
+
 .nav-bar ul {
   margin: 0 0 0 30px;
   padding: 0;
