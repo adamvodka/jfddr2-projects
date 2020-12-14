@@ -1,10 +1,8 @@
-@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
-
 /* Styl użytkownika */
 body {
-  width: 1115px;
+  max-width: 1115px;
   margin: 0 auto;
-  background-color: #fafafa;
+  background-color: hsl(0, 0%, 98%);
   font-family: "Roboto", sans-serif;
 }
 
@@ -14,13 +12,11 @@ a {
 }
 
 nav {
-  position: fixed;
-  left: 50%;
-  transform: translateX(-50%);
   display: flex;
   justify-content: space-around;
+  margin: 0 100px;
   align-items: center;
-  background-color: #ffffff;
+  background-color: hsl(0, 0%, 100%);
   border-bottom: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
   margin-bottom: 25px;
 }
@@ -31,23 +27,6 @@ nav {
 
 .main-logo div {
   margin: 0;
-}
-
-.search-icon {
-  font-family: "Roboto", FontAwesome;
-  font-weight: 400;
-  font-size: 16px;
-  border-color: #cccccc;
-  border-style: solid;
-  text-align: center;
-  border-radius: 4px;
-  padding: 5px 15px;
-  border-width: 1px;
-  background-color: #fafafa;
-  color: #a3a3a3;
-}
-.search-icon:focus {
-  outline: none;
 }
 
 .main-logo {
@@ -83,20 +62,13 @@ nav {
   margin: 5px;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .main-data {
-  margin-top: 80px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .main-data__user-avatar {
-  margin: 2% 5% 2% 0;
+  margin: 2% 5% 2% 16%;
 }
 
 .main-data__user-avatar img {
@@ -165,7 +137,6 @@ main {
 .gallery {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
