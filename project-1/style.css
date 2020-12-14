@@ -1,6 +1,6 @@
 /* Styl użytkownika */
 body {
-  max-width: 1366px;
+  max-width: 1115px;
   margin: 0 auto;
   background-color: hsl(0, 0%, 98%);
   font-family: "Roboto", sans-serif;
@@ -13,7 +13,7 @@ a {
 
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background-color: hsl(0, 0%, 100%);
   border-bottom: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
@@ -29,8 +29,8 @@ nav {
 }
 
 .main-logo {
-  height: 100%;
-  width: 40%;
+  height: 40%;
+  width: 100%;
 }
 
 .nav-bar ul {
@@ -105,28 +105,22 @@ nav {
   color: #0095f6;
 }
 
-
-
-
-
 .posts-selector {
   display: flex;
   justify-content: center;
 }
 
-
 .gallery::before {
   margin-top: 35px;
-  width: 66vw;
+  width: 645px;
   content: "";
-border-bottom: 2px solid rgba(var(--b6a, 219, 219, 219), 1);
+  border-bottom: 2px solid rgba(var(--b6a, 219, 219, 219), 1);
 }
 
 .gallery {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .gallery__posts-selector {
@@ -145,7 +139,6 @@ border-bottom: 2px solid rgba(var(--b6a, 219, 219, 219), 1);
   border-top: 2px solid darkgray;
 }
 
-
 .article-grid {
   display: flex;
   justify-content: center;
@@ -162,5 +155,3 @@ border-bottom: 2px solid rgba(var(--b6a, 219, 219, 219), 1);
   align-items: center;
   margin: 10px;
 }
-
-
