@@ -4,7 +4,7 @@
 
 ![layout1](./files/insta.png)
 
-![](/files/kwestiasmaku.png)
+![](files/kwestiasmaku.png)
 
 ![](files/sony.png)
 
